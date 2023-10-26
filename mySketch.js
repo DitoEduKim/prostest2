@@ -1,20 +1,26 @@
+//For the WccChallange on theme of "Digital to Physical/ Physcial to Digital".
+//I thought about going the 'bits to atoms' route, since I have a plotter and 3D printer and have done many
+//projects like that w my students.
+//But I really wanted to explore more generative photomontage after using that idea in the Dada challenge.
+//The photos are all from mine, mostly taken by my phone on forest hikes.
+
 
 let images=[]
 let rs
 let simplex
 
 function preload() {
-  cosmo= loadImage('blueRose.PNG');
-	dtree= loadImage('cat.PNG');
-	branch= loadImage('flower.PNG');
-	ginko= loadImage('jelly.PNG');
-	handup= loadImage('memeCat.PNG');
-	inhand= loadImage('whiteRose.PNG');
-	jelly= loadImage('jiji.PNG');
-	opentree= loadImage('inkCat.PNG');
-	shroom= loadImage('whiteLily.PNG');
-	yshroom= loadImage('orangeLily.PNG');
-	leaf= loadImage('pinkLily.PNG');
+  cosmo= loadImage('cosmo.PNG');
+	dtree= loadImage('darktree.PNG');
+	branch= loadImage('drippybranch.PNG');
+	ginko= loadImage('ginko.PNG');
+	handup= loadImage('handup.PNG');
+	inhand= loadImage('inhand.PNG');
+	jelly= loadImage('jellyfish.PNG');
+	opentree= loadImage('opentree.PNG');
+	shroom= loadImage('OrangeShroom.PNG');
+	yshroom= loadImage('yshroom.PNG');
+	leaf= loadImage('leaf.PNG');
 		}
 		
 function setup() {
